@@ -1,0 +1,1 @@
+global using Epistle.ActivityPub;

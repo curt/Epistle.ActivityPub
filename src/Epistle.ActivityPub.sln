@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epistle.ActivityPub", "Epistle.ActivityPub\Epistle.ActivityPub.csproj", "{C022A1D7-2041-4C99-908A-AB0A42CFB50E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epistle.ActivityPub.Tests", "Epistle.ActivityPub.Tests\Epistle.ActivityPub.Tests.csproj", "{2A3CBBAF-36E4-423E-86D2-BABA0FF07D5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{C022A1D7-2041-4C99-908A-AB0A42CFB50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C022A1D7-2041-4C99-908A-AB0A42CFB50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C022A1D7-2041-4C99-908A-AB0A42CFB50E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A3CBBAF-36E4-423E-86D2-BABA0FF07D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A3CBBAF-36E4-423E-86D2-BABA0FF07D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A3CBBAF-36E4-423E-86D2-BABA0FF07D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A3CBBAF-36E4-423E-86D2-BABA0FF07D5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
