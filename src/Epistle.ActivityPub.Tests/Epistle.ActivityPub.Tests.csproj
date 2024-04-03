@@ -24,4 +24,7 @@
     <ProjectReference Include="..\Epistle.ActivityPub\Epistle.ActivityPub.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Include="Examples\**\*.json" />
+  </ItemGroup>
 </Project>

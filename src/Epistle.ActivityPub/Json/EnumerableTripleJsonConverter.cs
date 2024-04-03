@@ -72,7 +72,7 @@ public class EnumerableTripleJsonConverter : JsonConverter<IEnumerableTriple>
     {
         if (triages.Count() == 1)
         {
-            JsonWriteTriage(writer, triages.First());
+            JsonWriteTriple(writer, triages.First());
         }
         else
         {
@@ -80,14 +80,14 @@ public class EnumerableTripleJsonConverter : JsonConverter<IEnumerableTriple>
 
             foreach (var triage in triages)
             {
-                JsonWriteTriage(writer, triage);
+                JsonWriteTriple(writer, triage);
             }
 
             writer.WriteEndArray();
         }
     }
 
-    private static void JsonWriteTriage(Utf8JsonWriter writer, Triple triage)
+    private static void JsonWriteTriple(Utf8JsonWriter writer, Triple triage)
     {
         switch (triage.EntityType)
         {
