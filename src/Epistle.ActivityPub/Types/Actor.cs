@@ -22,8 +22,3 @@ public partial class Actor : Object
 
     public PublicKey? PublicKey { get; set; }
 }
-
-public partial class Group : Actor { }
-
-public partial class Person : Actor { }
-

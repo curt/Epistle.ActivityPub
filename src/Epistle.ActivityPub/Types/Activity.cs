@@ -45,11 +45,3 @@ public partial class Activity : Object
 
     public IEnumerableTriple? Instrument { get; set; }
 }
-
-public partial class Accept : Activity { }
-
-public partial class Create : Activity { }
-
-public partial class Follow : Activity { }
-
-public partial class Invite : Activity { }

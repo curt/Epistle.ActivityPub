@@ -1,12 +1,5 @@
 ﻿namespace Epistle.ActivityPub;
 
-public enum TripleEnum
-{
-    Object,
-    Uri,
-    Link
-}
-
 public partial class Triple
 {
     private readonly TripleEnum _type;
