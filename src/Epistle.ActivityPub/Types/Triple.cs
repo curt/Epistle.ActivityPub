@@ -22,7 +22,7 @@ public partial class Triple
     public Triple(Link link)
     {
         if (link.Href == null)
-            throw new ArgumentException($"argument has null '{nameof(link.Href)}' property", nameof(link));
+            throw new ArgumentException($"argument has null {nameof(link.Href)} property", nameof(link));
 
         _type = TripleEnum.Link;
         _link = link;

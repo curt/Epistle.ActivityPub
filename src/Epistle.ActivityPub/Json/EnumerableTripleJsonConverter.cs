@@ -64,7 +64,7 @@ public class EnumerableTripleJsonConverter : JsonConverter<IEnumerableTriple>
         }
         else
         {
-            throw new InvalidOperationException($"could not read object of type '{obj.GetType().Name}'");
+            throw new InvalidOperationException($"could not read object of type {obj.GetType().Name}");
         }
     }
 

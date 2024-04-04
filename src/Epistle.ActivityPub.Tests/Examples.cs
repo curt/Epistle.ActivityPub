@@ -12,7 +12,7 @@ public class Examples
         var resourceName = resourceNames.First(s => s.EndsWith(filename, StringComparison.CurrentCultureIgnoreCase));
 
         using var stream = assembly.GetManifestResourceStream(resourceName)
-            ?? throw new InvalidOperationException($"could not find resource '{filename}'");
+            ?? throw new InvalidOperationException($"could not find resource {filename}");
         using var reader = new StreamReader(stream);
 
         return reader.ReadToEnd();

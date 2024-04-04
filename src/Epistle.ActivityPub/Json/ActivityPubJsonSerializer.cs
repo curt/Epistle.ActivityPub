@@ -22,9 +22,9 @@ public class ActivityPubJsonSerializer
     {
         Core obj = (Core)Deserialize(json, typeof(Core));
         string names = typeof(Core).Namespace
-            ?? throw new InvalidOperationException("could not find Core namespace");
+            ?? throw new InvalidOperationException($"could not find {nameof(Core)} namespace");
         Type objType = Type.GetType($"{names}.{obj.Type}")!
-            ?? throw new InvalidOperationException($"could not find type '{names}.{obj.Type}'");
+            ?? throw new InvalidOperationException($"could not find type {names}.{obj.Type}");
 
         return Deserialize(json, objType);
     }
